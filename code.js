@@ -9,7 +9,7 @@ function validateForm() {
         return true;
     }
     else {
-        alert ("Login was unsuccessful, please check your username and password");
+        alert ("Login was unsuccessful, check your username and password please!");
         return false;
     }
 }
