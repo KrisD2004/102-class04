@@ -107,6 +107,7 @@ function rating(){
     let rating = prompt("Rate me webpage on a scale of 1-5");
     document.getElementById('btn').style.visibility= 'hidden';
     for (let i =0; i < rating && i < 5;){
-        
+        document.getElementById("thisPar").innerHTML += "<img class = 'ratingPictures' src = 'preview.jpg'/>"
     }
 }
+
